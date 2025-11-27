@@ -1,35 +1,33 @@
-LIPNET
+<h1>LIPNET</h1>
 
-A deep-learning lip-reading system that predicts spoken words straight from lip movements. Uses computer vision + sequence models to work even when there’s zero or super-low audio 🔇.
+A deep-learning lip-reading system that predicts spoken words from lip movements. Works even in silent or noisy environments 🔇👄.
 
-FEATURES
+<h1>FEATURES</h1>
 
-Lip-movement–based speech recognition
+Lip-based speech recognition
 
 End-to-end deep learning
 
 No audio required
 
-Works in noisy or silent environments
+Works in noisy or silent setups
 
-Modular + easy to extend
+Modular + extendable
 
-HOW IT WORKS
+<h1>HOW IT WORKS</h1>
 
-LipNet takes video frames of the mouth area and runs them through:
+COMPUTER VISION for spatiotemporal features
 
-Computer Vision for spatiotemporal feature extraction
+SEQUENCE MODELS (RNN / LSTM / GRU / TRANSFORMER)
 
-Sequence Models (RNN/LSTM/GRU/Transformer vibes) for decoding word patterns
+CTC LOSS for alignment
 
-CTC Loss to align predictions with variable input lengths
+<h1>TECH STACK</h1>
 
-TECH STACK
+PYTHON
 
-Python
+PYTORCH / TENSORFLOW
 
-PyTorch / TensorFlow
+OPENCV
 
-OpenCV
-
-NumPy
+NUMPY
