@@ -1,6 +1,6 @@
 <h1>LIPNET</h1>
 
-A deep-learning lip-reading system that predicts spoken words from lip movements. Works even in silent or noisy environments 🔇👄.
+A deep-learning lip-reading system that predicts spoken words from lip movements. Works even in silent or noisy environments 🔇.
 
 <h1>FEATURES</h1>
 
